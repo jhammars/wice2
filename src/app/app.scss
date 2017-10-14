@@ -14,3 +14,18 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+.footer .searchbar-search-icon {
+    display:none;
+    width:0;
+    height:0;
+}
+.footer .searchbar-input {
+    text-align:center;
+    border-radius:8px;
+}
+.footer .searchbar-input-container {
+    width:66%;
+    margin-right:auto;
+    margin-left:auto;
+}
